@@ -22,5 +22,5 @@ git push origin --delete remoteBranchName
 
 You can also use this shorter command to delete a branch remotely: git push <remote> :<branch>
 
-For example: git push origin :fix/authentication
+For example: git push origin :fix/authentication .
 If you get the error below, it may mean that someone else has already deleted the branch.

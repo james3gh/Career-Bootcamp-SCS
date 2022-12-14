@@ -1,6 +1,6 @@
 ## Title
 
-    Same as Title of the issue you solved.
+  Activate Yourself 
 
 ## Description -
 
@@ -8,6 +8,7 @@
 
     List out all the commands that you used to complete this task from very beginning (when told in task).
 
-    -
-    -
+    -cd
+    
+    -git login
     -

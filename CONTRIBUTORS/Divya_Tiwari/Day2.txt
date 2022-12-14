@@ -1,0 +1,20 @@
+Day 2 Questionaire -
+
+
+Q1 - Why branching is important in any workflow ? How does it help ?
+
+Answer -
+Branching is important in any project workflow as it allows developer/developers to modify different parts of a central base. 
+Branching is useful when we want to experiment with a piece of the project but don't want to affect the project. 
+
+Q2 - Write the command for viewing all the branches present in remote repo?
+
+Answer - 
+The command for viewing all the branches present in remote repo is:
+git branch -r
+
+Q3 - Write the command for deleting a branch?
+
+Answer -
+The command for deleting a branch is
+git branch -d <branch-name>

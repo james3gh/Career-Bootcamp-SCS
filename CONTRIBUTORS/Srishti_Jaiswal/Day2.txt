@@ -4,7 +4,7 @@ Ans- A branching strategy helps define how the delivery team functions and how e
 
 Q2-Write the command for viewing all the branches present in remote repo?
 
-Ans- git branch
+Ans- git branch -r Or git branch -a
 
 Q3-Write the command for deleting a branch?
 

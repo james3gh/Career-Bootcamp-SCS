@@ -1,0 +1,12 @@
+Q1-Why branching is important in any workflow ? How does it help ?
+
+Ans- A branching strategy helps define how the delivery team functions and how each feature, improvement, or bug fix is handled. It also reduces the complexity of the delivery pipeline by allowing developers to focus on developments and deployments only on the relevant branches—without affecting the entire product.
+
+Q2-Write the command for viewing all the branches present in remote repo?
+
+Ans- git branch -r Or git branch -a
+
+Q3-Write the command for deleting a branch?
+
+Ans- $ git push <remote_name> --delete <branch_name>
+ In most cases , <remote_name> will be origin.

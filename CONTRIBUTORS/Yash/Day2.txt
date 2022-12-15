@@ -1,0 +1,5 @@
+A1 - Branching is used in version control and software management to maintain stability while isolated changes are made to code. Branching facilitates the development of bug fixes, the addition of new capabilities and the integration of new versions after they have been tested in isolation.
+
+A2 -  git branch -r.
+
+A3 -  git push origin --delete remoteBranchName

@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    /* background: url('index.jpg'); */
+    height: 4544;
+
+}
+
+.top {
+
+    /* border: 2px solid white; */
+    color: goldenrod;
+    margin: 36px 25px;
+    padding: 1px 533px;
+    width: 46%;
+    border-radius: 2px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.bottom {
+    display: block;
+    width: 40%;
+    margin: -376px 190px;
+    padding: 1px 533px;
+    text-align: centre;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+.top1{
+    background-color: white;
+    border: 2px solid goldenrod;
+     text-align: center;
+     color:black;
+    margin: 35px 418px;
+        padding: 1px 533px;
+        width: 10.5%;
+        hight: 2px;
+}
+.left1{
+    display:block;
+     border: 2px solid goldenrod;
+    color: white;
+    margin: -32px 418px;
+        padding: -1px 533px;
+        width: 20%;
+        height: 20%;
+        text-align: center;
+}
+.left2{
+    
+     border: 2px solid goldenrod;
+    color: white;
+    margin: 36px 418px;
+        padding: -1px 533px;
+        width: 20%;
+        text-align: center;
+}
+.left3{
+     border: 2px solid goldenrod;
+    color: white;
+    margin: -32px 418px;
+        padding: -1px 533px;
+        width: 20%;
+        text-align: center;
+}
+.left4{
+     border: 2px solid goldenrod;
+    color: white;
+    margin: 36px 418px;
+        padding: -1px 533px;
+        width: 20%;
+        text-align: center;
+}
+.left5{
+     border: 2px solid goldenrod;
+    color: white;
+    margin: -32px 418px;
+        padding: -1px 533px;
+        width: 20%;
+        text-align: center;
+}
+.left6{
+     border: 2px solid goldenrod;
+    color: white;
+    margin: 36px 418px;
+        padding: -1px 533px;
+        width: 20%;
+        text-align: center;
+}
+.right1 {
+    display:inline- block;
+    border: 2px solid goldenrod;
+    color: white;
+    margin: -498px 848px;
+    padding: -1px 533px;
+    width: 40%;
+    
+   
+    text-align: center;
+}
+
+.right2 {
+
+    border: 2px solid goldenrod;
+    color: white;
+    margin: 503px 848px;
+    padding: -1px 533px;
+    width: 40%;
+    text-align: center;
+}
+
+.right3 {
+    border: 2px solid goldenrod;
+    color: white;
+    margin: -499px 848px;
+    padding: -1px 533px;
+    width: 40%;
+    text-align: center;
+}
+
+.right4 {
+    border: 2px solid goldenrod;
+    color: white;
+    margin: 503px 848px;
+    padding: -1px 533px;
+    width: 40%;
+    text-align: center;
+}
+
+.right5 {
+    border: 2px solid goldenrod;
+    color: white;
+    margin: -499px 848px;
+    padding: -1px 533px;
+    width: 40%;
+    text-align: center;
+}
+
+.right6 {
+    border: 2px solid goldenrod;
+    color: white;
+    margin: 503px 848px;
+    padding: -1px 533px;
+    width: 40%;
+    text-align: center;
+}

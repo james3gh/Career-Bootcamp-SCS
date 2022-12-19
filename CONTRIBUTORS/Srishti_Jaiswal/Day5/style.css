@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0px;
     padding: 0px;
@@ -11,158 +13,67 @@ body {
 
     /* border: 2px solid white; */
     color: goldenrod;
-    margin: 36px 25px;
-    padding: 1px 533px;
-    width: 46%;
-    border-radius: 2px;
+    margin: 15px 0px;
+    padding: auto;
     text-align: center;
     background-color: white;
 
 }
 
-.bottom {
-    display: block;
-    width: 40%;
-    margin: -376px 190px;
-    padding: 1px 533px;
+.footer {
+    
+    
+    margin: 100px 0px;
+    padding: 1px 532px;
     text-align: centre;
 }
 
-.navbar {
+.footer {
     display: inline-block;
 }
 
-.navbar li {
+.footer li {
     color: white;
     display: inline-block;
     font-size: 25px;
 }
 
-.navbar li a {
+.footer li a {
     color: white;
-    padding: 34px 23px;
+    padding: 34px 40px;
 }
 
-.navbar li a:hover,
-.navbar li a.active {
+.footer li a:hover,
+.footer li a.active {
     text-decoration: underline;
     color: gray;
 }
 .top1{
     background-color: white;
-    border: 2px solid goldenrod;
+    color: goldenrod;
      text-align: center;
      color:black;
     margin: 35px 418px;
         padding: 1px 533px;
-        width: 10.5%;
+        width: 10%;
         hight: 2px;
 }
-.left1{
-    display:block;
-     border: 2px solid goldenrod;
-    color: white;
-    margin: -32px 418px;
-        padding: -1px 533px;
-        width: 20%;
-        height: 20%;
-        text-align: center;
+caption,td,th {
+    border: 1px solid goldenrod;
+    padding: 15px;
 }
-.left2{
-    
-     border: 2px solid goldenrod;
-    color: white;
-    margin: 36px 418px;
-        padding: -1px 533px;
-        width: 20%;
-        text-align: center;
+caption{
+    padding: 15px 0px;
+    background-color: white;
+    color: goldenrod;
 }
-.left3{
-     border: 2px solid goldenrod;
+.table {
     color: white;
-    margin: -32px 418px;
-        padding: -1px 533px;
-        width: 20%;
-        text-align: center;
-}
-.left4{
-     border: 2px solid goldenrod;
-    color: white;
-    margin: 36px 418px;
-        padding: -1px 533px;
-        width: 20%;
-        text-align: center;
-}
-.left5{
-     border: 2px solid goldenrod;
-    color: white;
-    margin: -32px 418px;
-        padding: -1px 533px;
-        width: 20%;
-        text-align: center;
-}
-.left6{
-     border: 2px solid goldenrod;
-    color: white;
-    margin: 36px 418px;
-        padding: -1px 533px;
-        width: 20%;
-        text-align: center;
-}
-.right1 {
-    display:inline- block;
-    border: 2px solid goldenrod;
-    color: white;
-    margin: -498px 848px;
-    padding: -1px 533px;
-    width: 40%;
-    
-   
-    text-align: center;
-}
+    margin : 49px 51px;
+    padding: 1px 580px;
 
-.right2 {
-
-    border: 2px solid goldenrod;
-    color: white;
-    margin: 503px 848px;
-    padding: -1px 533px;
-    width: 40%;
-    text-align: center;
 }
-
-.right3 {
-    border: 2px solid goldenrod;
-    color: white;
-    margin: -499px 848px;
-    padding: -1px 533px;
-    width: 40%;
-    text-align: center;
-}
-
-.right4 {
-    border: 2px solid goldenrod;
-    color: white;
-    margin: 503px 848px;
-    padding: -1px 533px;
-    width: 40%;
-    text-align: center;
-}
-
-.right5 {
-    border: 2px solid goldenrod;
-    color: white;
-    margin: -499px 848px;
-    padding: -1px 533px;
-    width: 40%;
-    text-align: center;
-}
-
-.right6 {
-    border: 2px solid goldenrod;
-    color: white;
-    margin: 503px 848px;
-    padding: -1px 533px;
-    width: 40%;
-    text-align: center;
+.topic{
+    color:goldenrod;
+     background-color: white;
 }

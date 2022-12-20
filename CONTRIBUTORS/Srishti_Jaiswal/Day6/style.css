@@ -1,0 +1,15 @@
+img {
+   width: 13%;
+   height: 20%;
+}
+p{
+    color: grey;
+}
+a{
+    color: green;
+    
+}
+ a:hover, a.active {
+    text-decoration: underline;
+    color: gray;
+}

@@ -1,0 +1,12 @@
+.topHeading h2{
+    font-weight: lighter;
+}
+ul{
+    list-style-type: square;
+}
+.preperation ol li p{
+    color: rgba(98, 97, 97, 0.876);
+}
+a{
+    color: rgb(28, 149, 4);
+}

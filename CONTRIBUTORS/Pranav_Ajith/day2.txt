@@ -8,4 +8,4 @@ Q2 - Write the command for viewing all the branches present in remote repo?
 git branch -r
 
 Q3 - Write the command for deleting a branch?
-git branch -d "Name"
+git branch -d "Name" 

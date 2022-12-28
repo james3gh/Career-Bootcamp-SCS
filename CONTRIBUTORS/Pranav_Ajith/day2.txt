@@ -1,0 +1,11 @@
+
+
+Q1 - Why branching is important in any workflow ? How does it help ?
+    Branching allows us to seperate the work we are currently doing, which may be prone to errors, from the working model.
+    Also it allows us to check the current work before merging with the original work.
+
+Q2 - Write the command for viewing all the branches present in remote repo?
+git branch -r
+
+Q3 - Write the command for deleting a branch?
+git branch -d "Name"

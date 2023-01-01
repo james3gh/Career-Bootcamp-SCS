@@ -1,2 +1,7 @@
 Defining Song: https://www.youtube.com/watch?v=YR12Z8f1Dh8
+<<<<<<< HEAD
 The most useless skill learnt: Getting people to read the word "Cowabunga" even if they don't want to. Like just now. Got you, didn't I? 🙃
+=======
+Fav Song (Turu Lub ❤️): https://www.youtube.com/watch?v=frw6uu3nonQ
+Undisputed best video in youtube 🌝: https://www.youtube.com/watch?v=1zdlVdZqNJA
+>>>>>>> feature1

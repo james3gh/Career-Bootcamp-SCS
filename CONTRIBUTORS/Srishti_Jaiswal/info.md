@@ -13,3 +13,6 @@ a)The staging area can be described as a preview of our next commit. When we cre
 
 b) The git push command is used to upload local repository content to a remote repository.
 
+Task-19
+How to edit the last commit message in git?
+Ans- To edit the last commit message in git, we have to use the "git commit --amend" command, when we will write this command and press enter then  a text editor will open, we have to edit the commit message whatever we want to change after that we have to save the commit.

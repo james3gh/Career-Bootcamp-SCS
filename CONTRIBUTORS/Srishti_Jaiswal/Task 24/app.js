@@ -1,30 +1,41 @@
-let celcius = document.getElementById('Celcius');
+let celsius = document.getElementById('Celsius');
 let fahrenheit = document.getElementById('Fahrenheit');
-celcius.oninput = function () {
+celsius.oninput = function () {
     var letterNumber = /^[0-9]+$/;
-
-    if (isNaN(celcius.value)) {
-       
-        
-        document.getElementById('demo').innerHTML = "Celcius must be a number.";
-        
+    if (celsius.value == "") {
+        fahrenheit.value = "";
     }
     else {
-        document.getElementById('demo').innerHTML = "";
-        let f = (parseFloat(celcius.value) * 9) / 5 + 32;
-        fahrenheit.value = parseFloat(f.toFixed(2));
+        if (isNaN(celsius.value)) {
+       
+            document.getElementById("demo").style.visibility = "visible";
+            document.getElementById('demo').innerHTML = "Celsius must be a number.";
+        
+        }
+        else {
+            document.getElementById("demo").style.visibility = "hidden";
+            document.getElementById('demo').innerHTML = "";
+            let f = (parseFloat(celsius.value) * 9) / 5 + 32;
+            fahrenheit.value = parseFloat(f.toFixed(2));
+        }
     }
 }
 
 
 fahrenheit.oninput = function () {
-    if (isNaN(fahrenheit.value)) {
-        
-         document.getElementById('demo').innerHTML = "Fahrenheit must be a number.";
+    if (fahrenheit.value == "") {
+        celsius.value = "";
     }
     else {
-        
-         let c = ((parseFloat(fahrenheit.value) - 32) * 5) / 9;
-        celcius.value = parseFloat(c.toFixed(2));
+        if (isNaN(fahrenheit.value)) {
+            document.getElementById("demo").style.visibility = "visible";
+            document.getElementById('demo').innerHTML = "Fahrenheit must be a number.";
+        }
+        else {
+            document.getElementById("demo").style.visibility = "hidden";
+            document.getElementById('demo').innerHTML = "";
+            let c = ((parseFloat(fahrenheit.value) - 32) * 5) / 9;
+            celsius.value = parseFloat(c.toFixed(2));
+        }
     }
 }

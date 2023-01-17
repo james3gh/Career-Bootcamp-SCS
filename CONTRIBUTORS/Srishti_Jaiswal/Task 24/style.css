@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+input{
+    width: 30%;
+    height: 50px;
+    
+}
+
+#demo{
+    background-color: rgb(229, 169, 169);
+    color: rgb(179, 18, 18);
+    border: 2px solid rgb(179, 18, 18);
+    width: 50%;
+    height: 100%;
+    padding: 10px 20px;
+
+}
